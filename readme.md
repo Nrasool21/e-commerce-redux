@@ -25,10 +25,8 @@ import { createStore } from 'redux'
 
 The above is a reducer function that takes a current state value and an action object describing "what happened", and returns a new state value.
 A reducer's function signature is: (state, action) => newState
+We replaced use reducer with redux. 
 
-The Redux state should contain only plain JS objects, arrays, and primitives.
-
-Instead of mutating the state directly, we have specify the mutations we want to occur with plain objects called actions and further write a reducer function to decide how every action transforms the entire application's state.
 
 ## Link
 
